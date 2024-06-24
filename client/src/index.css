@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(0, 4, 53);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding-bottom: 50px;
+  font-size: 60px;
+}
+
+.info {
+  font-size: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.col {
+  background-color: rgb(0, 13, 153);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+.col-go {
+  background-color: rgb(0, 13, 153);
+  padding: 20px 40px;
+  margin: 20px;
+  font-size: 40px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  padding: 50px;
+}
+
+input {
+  font-size: 40px;
+  border-radius: 10px;
+  outline: 0;
+  border: 2px solid white;
+  background-color: rgb(0, 13, 153);
+  color: white;
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  color: rgb(0, 4, 53);
+  font-size: 40px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  outline: none;
+  margin: 20px;
+}
+
+.tabel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.row {
+  display: contents;
+}
+
+.lb-col {
+  padding: 10px 20px;
+  border: 2px solid white;
+}
